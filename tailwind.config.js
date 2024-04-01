@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "ubuntu": ["Ubuntu Mono", "monospace"],
+        "popin": ["Mochiy Pop P One", "sans-serif"]
+      },
+      // backgroundImage: {
+      //   "bgimg": ["url('/Assets/bgimage')"]
+      // }
+    },
   },
   plugins: [],
 }
