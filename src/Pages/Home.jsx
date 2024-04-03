@@ -5,7 +5,7 @@ const Home = () => {
         <>
         <div className='h-lvh w-full bg-[url("./Assets/bg.png")] bg-no-repeat bg-cover'>
             {/* NAVBAR */}
-            <div id='navbar' className='border-8 rounded-2xl py-4 bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+            <div id='navbar' className='py-4 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded sticky top-0 z-20'>
                 <ul className='font-popin flex justify-evenly'>
                     <li className='cursor-pointer hover:scale-125 duration-700'>WhatsApp</li>
                     <li className='cursor-pointer hover:scale-125 duration-700'>YouTube</li>
