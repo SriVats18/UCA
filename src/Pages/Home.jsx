@@ -3,21 +3,21 @@ import React from 'react'
 const Home = () => {
     return (
         <>
-        <div className='h-lvh w-full bg-[url("./Assets/bg2.png")] bg-no-repeat bg-cover'>
+        <div className='bg-[url("https://i.pinimg.com/564x/39/9b/b4/399bb4bf47aad332a25d4cdcb0fa79b0.jpg")] bg-[length:630px_800px] md:bg-[length:1550px_800px] bg-no-repeat bg-fixed text-white'>
             {/* NAVBAR */}
-            <div id='navbar' className='py-4 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded sticky top-0 z-20 bg-clip-text-sm backdrop-blur'>
-                <ul className='font-popin flex justify-evenly'>
-                    <li className='cursor-pointer hover:scale-125 duration-700'>WhatsApp</li>
-                    <li className='cursor-pointer hover:scale-125 duration-700'>YouTube</li>
-                    <li className='cursor-pointer hover:scale-125 duration-700'>Instagram</li>
-                    <li className='cursor-pointer hover:scale-125 duration-700'>Twitter</li>
-                    <li className='cursor-pointer hover:scale-125 duration-700'>About</li>
+            <div id='navbar' className='sticky top-0 z-20 rounded-xl backdrop-blur-2xl'>
+                <ul className='flex justify-around p-4 text-xl font-ubuntu md:font-popin'>
+                    <li className='cursor-pointer hover:scale-150 duration-700'>WhatsApp</li>
+                    <li className='cursor-pointer hover:scale-150 duration-700'>YouTube</li>
+                    <li className='cursor-pointer hover:scale-150 duration-700'>Instagram</li>
+                    <li className='cursor-pointer hover:scale-150 duration-700'>Twitter</li>
+                    <li className='cursor-pointer hover:scale-150 duration-700'>About</li>
                 </ul>
             </div>
 
             {/* MAIN */}
-            <div id='main' className='relative grid place-content-center h-screen'>
-                <h1 className='font-popin text-white text-9xl absolute top-48 left-80'>UNIVERSAL COMMENT ANALYZER</h1>
+            <div id='main'className='grid place-content-center h-screen w-full'>
+                <h1 className='font-popin uppercase text-center text-7xl md:text-9xl'>UNIVERSAL COMMENT ANALYZER</h1>
             </div>
         </div>
         </>
@@ -28,73 +28,8 @@ export default Home
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// <!DOCTYPE html>
-// <html lang="en">
-// <head>
-//   <meta charset="UTF-8">
-//   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-//   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-//   <title>Play</title>
-// </head>
-// <body>
-//   <div class="h-lvh w-full bg-[url('https://img.freepik.com/free-vector/colorful-abstract-background_23-2148463929.jpg')] bg-no-repeat bg-cover">
-//     <!-- NAVBAR -->
-//     <div id="navbar" class="py-4 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded sticky top-0 z-20 bg-opacity-80 scroll-mb-5 bg-clip-text-sm backdrop-blur">
-//       <ul class="font-popin flex justify-evenly">
-//         <li class="cursor-pointer hover:scale-125 duration-700">WhatsApp</li>
-//         <li class="cursor-pointer hover:scale-125 duration-700">YouTube</li>
-//         <li class="cursor-pointer hover:scale-125 duration-700">Instagram</li>
-//         <li class="cursor-pointer hover:scale-125 duration-700">Twitter</li>
-//         <li class="cursor-pointer hover:scale-125 duration-700">About</li>
-//       </ul>
-//     </div>
-
-//     <!-- MAIN -->
-//     <div id="main" class="relative grid place-content-center h-screen">
-//       <h1 class="font-popin text-white text-9xl absolute top-48 left-80 uppercase">universal comment analyzer</h1>
-//     </div>
-//   </div>
-// </body>
-// </html>
-
-// <!-- import React from 'react'
-
-// const Home = () => {
-//     return (
-//         <>
-//         <div className='h-lvh w-full bg-[url("./Assets/bg.png")] bg-no-repeat bg-cover'>
-//             {/* NAVBAR */}
-//             <div id='navbar' className='py-4 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded sticky top-0 z-20 bg-opacity-80 scroll-mb-5 bg-clip-text-sm backdrop-blur'>
-//                 <ul className='font-popin flex justify-evenly'>
-//                     <li className='cursor-pointer hover:scale-125 duration-700'>WhatsApp</li>
-//                     <li className='cursor-pointer hover:scale-125 duration-700'>YouTube</li>
-//                     <li className='cursor-pointer hover:scale-125 duration-700'>Instagram</li>
-//                     <li className='cursor-pointer hover:scale-125 duration-700'>Twitter</li>
-//                     <li className='cursor-pointer hover:scale-125 duration-700'>About</li>
-//                 </ul>
-//             </div>
-
-//             {/* MAIN */}
-//             <div id='main' className='relative grid place-content-center h-screen'>
-//                 <h1 className='font-popin text-white text-9xl absolute top-48 left-80'>UNIVERSAL COMMENT ANALYZER</h1>
-//             </div>
-//         </div>
-//         </>
-//     )
-// }
-
-// export default Home -->
+// BG - bg-[url('https://i.pinimg.com/564x/39/9b/b4/399bb4bf47aad332a25d4cdcb0fa79b0.jpg')]
+// BG - https://i.pinimg.com/564x/ee/92/29/ee9229f3bb674eb16ae1ac29c0f6105c.jpg
+// border-8 rounded-2xl
+// bg-opacity-80 bg-clip-padding blur-backdrop-filter
+// bg-opacity-80 scroll-mb-5
