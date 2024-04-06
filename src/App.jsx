@@ -1,4 +1,4 @@
-// import Content from "./Pages/Content"
+import Content from "./Pages/Content"
 import Home from "./Pages/Home"
 import About from "./Pages/About"
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Home/>
-      {/* <Content/> */}
+      <Content/>
       <About/>
     </>
   )
