@@ -7,12 +7,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "ubuntu": ["Ubuntu Mono", "monospace"],
-        "popin": ["Mochiy Pop P One", "sans-serif"]
-      },
-      // backgroundImage: {
-      //   "bgimg": ["url('/Assets/bgimage')"]
-      // }
+        "averia": ["Averia Serif Libre", "serif"],
+        "bree": ["Bree Serif", "serif"],
+        // "ubuntu": ["Ubuntu Mono", "monospace"],
+        // "popin": ["Mochiy Pop P One", "sans-serif"]
+      }
     },
   },
   plugins: [],
