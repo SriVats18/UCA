@@ -7,16 +7,16 @@ const Home = () => {
             {/* NAVBAR */}
             <div id='navbar' className='sticky top-0 z-20 rounded-xl backdrop-blur-2xl hover:bg-[#08387B] duration-1000'>
                 <ul className='flex justify-around p-4 text-3xl font-bree font-extrabold'>
-                    <li className='cursor-pointer hover:scale-150 active:text-orange-700 duration-700'><a href="#main">Home</a></li>
-                    <li className='cursor-pointer hover:scale-150 active:text-orange-700 duration-700'><a href="#about">About</a></li>
-                    <li className='cursor-pointer hover:scale-150 active:text-orange-700 duration-700'><a href="#content">Analyzers</a></li>
-                    <li className='cursor-pointer hover:scale-150 active:text-orange-700 duration-700'><a href="#contact">Contact Us</a></li>
+                    <li className='cursor-pointer hover:scale-150 hover:text-orange-700 active:text-orange-400 duration-700'><a href="#main">Home</a></li>
+                    <li className='cursor-pointer hover:scale-150 hover:text-orange-700 active:text-orange-400 duration-700'><a href="#about">About</a></li>
+                    <li className='cursor-pointer hover:scale-150 hover:text-orange-700 active:text-orange-400 duration-700'><a href="#content">Analyzers</a></li>
+                    <li className='cursor-pointer hover:scale-150 hover:text-orange-700 active:text-orange-400 duration-700'><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
 
             {/* MAIN */}
             <div id='main'className='grid place-content-center h-screen w-full'>
-                <h1 className='font-averia uppercase text-center text-7xl font-bold md:text-[150px]'>universal comment analyzer</h1>
+                <h1 className='font-averia uppercase text-center text-7xl font-bold md:text-[150px]'>Chat & comment analyzer</h1>
             </div>
         </div>
         </>

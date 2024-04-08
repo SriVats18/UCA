@@ -9,7 +9,7 @@ const Contact = () => {
       </div>
 
       <div className='grid place-content-center h-screen w-full font-averia px-4 text-center text-xl'>
-        <form className='flex flex-col gap-5'>
+        <form className='flex flex-col gap-5 justify-start'>
           <label for='name' className='flex gap-14 justify-end items-center'>
             <span className="text-3xl font-bold">Name: </span>
             <input type="text" name="name" id='name' placeholder='Your Name' className="rounded-lg px-2 py-1 text-black"/>
@@ -21,7 +21,7 @@ const Contact = () => {
           </label>
 
           <label for="Textarea" className='flex gap-14 justify-end items-center'>
-            <span className="text-3xl font-bold">Message: </span>
+            <span className="text-3xl font-bold">Feedback: </span>
             <textarea name="textarea" id="Textarea" rows="3" placeholder="Type Something.." className="rounded-lg px-2 py-1 text-black"></textarea>
           </label>
 
@@ -36,3 +36,11 @@ const Contact = () => {
 }
 
 export default Contact
+
+// BG:
+// https://i.pinimg.com/564x/78/4f/05/784f05041443a8a68202ae5eed0a43b3.jpg
+// https://i.pinimg.com/564x/7a/51/84/7a518424890e15c71dfe8a27905de12b.jpg
+// https://i.pinimg.com/564x/d2/b1/0d/d2b10d09e1af3666713d700619d80fd8.jpg
+// https://i.pinimg.com/564x/aa/72/61/aa72617f44ae23c5af52744cb7f714bf.jpg
+// https://i.pinimg.com/564x/be/ab/4f/beab4fad47518bd0875563b34ea374c0.jpg
+// https://i.pinimg.com/564x/fc/a4/9a/fca49a54e51894b1dcc475650505ce90.jpg

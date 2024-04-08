@@ -12,7 +12,7 @@ const About = () => {
         <div className='flex justify-center items-center'>
           <div className='basis-1/2'>
             <p className='font-averia px-10 text-center text-xl'>
-              Have you ever wondered what lurks beneath the surface of a comment section? We did too. That's why we built the Universal Comment Analyzer, a powerful tool that delves into the world of social media conversations, deciphering the emotions behind the words.
+              Have you ever wondered what lurks beneath the surface of a comment section? We did too. That's why we built the Chat & Comment Analyzer, a powerful tool that delves into the world of social media conversations, deciphering the emotions behind the words.
               <br /><br />
               Imagine: using cutting-edge AI like NLP, BERT, and Vader to dissect comments from YouTube, WhatsApp, and beyond. We leverage the magic of machine learning to categorize them as positive, negative, or neutral, giving you unparalleled insights into online sentiment.
               <br /><br />
@@ -22,7 +22,7 @@ const About = () => {
 
           <div className='basis-1/2'>
             <p className='font-averia px-10 text-center text-2xl'>
-              With the Universal Comment Analyzer, you can: <br /><br />
+              With the Chat & Comment Analyzer, you can: <br /><br />
             </p>
 
             <ul className='font-averia px-10 text-center text-2xl flex gap-5 justify-start'>
